@@ -2,6 +2,8 @@
    /*
       public - default modifier. Properties are accessible outside the class
       private - Propertires are accessible only inside the class
+      protected - Propertires are accessible inside the same class and other classes that extend it
+
       readonly - Marks the property as 'readonly' i.e. the value of the property cannot be modified outside the class
 
 
