@@ -10,6 +10,10 @@
        To use the static properties inside the class, use the class name instead.
  
        Instead of this.staticPropertyName, use className.staticPropertyName
+ 
+       Note:
+          'this' inside a static method gives access to the class itself.
+          'this' inside a non-static method gives access to the instance of the class.
     */
     var Department = /** @class */ (function () {
         function Department() {
