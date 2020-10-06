@@ -1,5 +1,7 @@
 (() => {
    /*
+      Type guard is a code pattern where you check for a certain type before you try to do something with it at runtime.
+
       Type guards help us with Union types
 
       Type guards can be implemented using
